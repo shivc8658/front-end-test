@@ -20,12 +20,12 @@ const Sidebar = () => {
         >
           Dashboard
         </li>
-        <li
+        {/* <li
           onClick={() => onRouteChange("/list", "List")}
           className={` ${activeSidebar === "List" ? "active" : ""} `}
         >
           List
-        </li>
+        </li> */}
       </ul>
     </SidebarWrapper>
   );
